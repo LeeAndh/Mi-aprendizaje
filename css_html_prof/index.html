@@ -40,9 +40,11 @@
         <section>
             <h3>segunda seccion</h3>
             <p>Aqui usaremos la etiqueta video para insertar videos</p>
-            <video src="video/faro_video.mp4" controls preload="auto">
-                
-            </video>
+            <video src="video/faro_video.mp4" controls preload="auto"></video>
+            <!-- 
+                controls = agreaga la opcion de interactuar como reproducir poner pausa
+                preload = precarga el video mas rapido
+            -->
             <article>
                 otro articulo referente al articulo 2
             </article>
@@ -51,6 +53,16 @@
             <p>aqui va contenido no relacionado como publicidad u otro tipo de informacion</p>
         </aside>
     </main>
+    <form action="">
+        <h2>Esto es un formulario</h2>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="ej. Jose">
+
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="********">
+
+        <input type="submit" value="Enviar">
+    </form>
     <footer>
         <p>pie de pagina, aqui va el copyright de la pagina</p>
     </footer>
