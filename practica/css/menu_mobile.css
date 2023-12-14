@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.mobile-menu {
+    padding: 25px;
+    border: 1px solid var(--gris);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.mobile-menu a {
+    text-decoration: none;
+    color: var(--gris);
+    font-weight: bold;
+}
+.mobile-menu ul {
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+}
+.mobile-menu li {
+    margin-bottom: 24px;
+}
+.mobile-menu ul:first-child {
+    border-bottom: 1px solid var(--gris);
+}
+.mobile-menu .email {
+    font-weight: 300;
+    font-size: 14px;
+}
+.mobile-menu .sign-out {
+    color: var(--morado);
+    font-size: 14px;
+}

@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+.login {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.form-content{
+    width: 300px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+}
+.logo {
+    display: flex;
+    justify-self: center;
+    width: 150px;
+    margin-top: 20px;
+    display: none;
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+}
+.subtitle {
+    font-size: 13.5px;
+    color: var(--gris);
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.email-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.email-image img {
+    width: 70px;
+    display: flex;
+    
+}
+.primary-botton {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--morado);
+    color: white;
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.resend {
+    font-size: 14px;
+}   
+.resend span {
+    color: var(--gris);
+}
+.resend a {
+    color: var(--morado);
+    text-decoration: none;
+}
+@media (max-width: 640px) {
+    .logo {
+        display: block;
+    }
+}

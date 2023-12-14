@@ -1,0 +1,40 @@
+.my-order {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.title {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.my-order-container {
+    width: 300px;
+}
+.order-content {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    gap: 16px;
+}
+.order-content p {
+    margin: 0;
+}
+.order-content p span {
+    display: block;
+}
+.order-content p span:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.order-content p span:nth-child(2) {
+    font-size: 14px;
+    color: var(--gris);
+}
+.order-content p:nth-child(2) {
+    text-align: end;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 26px;
+    place-content: center;
+}
+.cards-container img {
+    width: 240px;
+}
+.cards-product {
+    width: 240px;
+}
+.cards-product img {
+    height: 240px;
+    width: 240px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+.product-info figure {
+    margin: 0;
+}
+.product-info figure img {
+    width: 35px;
+    height: 35px;
+}
+.product-info div p:nth-child(1) {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.product-info div p:nth-child(2) {
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--gris);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 140px);
+        gap: 26px;
+    }
+    .cards-product {
+        width: 140px;
+    }
+    .cards-product img {
+        height: 140px;
+        width: 140px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+}

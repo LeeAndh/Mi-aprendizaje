@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+.login {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.form-content{
+    width: 300px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.logo {
+    display: flex;
+    justify-self: center;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: none;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form a {
+    text-align: center;
+    font-size: 14px;
+    color: var(--morado);
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.input {
+    border: none;
+    background-color: rgba(214, 200, 200, 0.155);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    height: 30px;
+    font-size: 16px;
+    padding: 4px;
+}
+.primary-botton {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--morado);
+    color: white;
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.secondary-botton {
+    border-color: var(--morado);
+    background-color: white;
+    border-radius: 8px;
+    height: 45px;
+    width: 100%;
+    cursor: pointer;
+    color: var(--morado);
+}
+
+@media (max-width: 640px) {
+    .logo {
+        display: block;
+    }
+    .secondary-botton {
+        width: 300px;
+        position: absolute;
+        bottom: 5%;
+    }
+}

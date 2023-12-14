@@ -1,0 +1,8 @@
+:root {
+    --morado: #AF33FF;
+    --gris: #616A6B;
+ }
+ body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+ }

@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+.login {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.form-content{
+    width: 300px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.logo {
+    display: flex;
+    justify-self: center;
+    width: 150px;
+    margin-top: 20px;
+    display: none;
+}
+.title{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.subtitle {
+    font-size: 13.5px;
+    color: var(--gris);
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.input {
+    border: none;
+    background-color: rgba(214, 200, 200, 0.155);
+    border-radius: 8px;
+    margin-bottom: 22px;
+    height: 30px;
+    font-size: 16px;
+    padding: 4px;
+}
+.primary-botton {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--morado);
+    color: white;
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 640px) {
+    .form-content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .form {
+        height: 100%;
+        justify-content: space-between;
+    }
+}
