@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+header{
+ background: seagreen;
+ display: inline-block;
+ width: 100%;
+ height: 10%;
+ position: relative;
+ padding:  0 10px;
+
+}
+header nav {
+    
+    position: absolute;
+    right: 10px;
+}
+header ul li {
+   margin-left: 8px;
+
+}
+h1, nav, li {
+    display: inline-block;
+    line-height: 87.8px;
+}
+main {
+    position: relative;
+    height: 90%;
+}
+section {
+    position: absolute;
+    left: 266px;
+    padding: 5px;
+    background: yellowgreen;
+    height: 100%;
+}
+aside {
+    position: absolute;
+    padding: 0 8px;
+    padding-bottom: 8px;
+    background: pink;
+    height: 100%;
+
+}
+.caja {
+    border: none;
+    width: 250px;
+    height: 150px;
+    margin-top: 8px;
+    background-color: darkslateblue;
+}
