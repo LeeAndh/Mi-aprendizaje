@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.contenedor {
+    display: flex;
+    border: 0.3rem solid black;
+    flex-wrap: wrap;
+}
+.box {
+    height: 10rem;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 10rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.caja1 {
+    background-color: red;
+}
+.caja2 {
+    background-color: blue;
+}
+.caja3 {
+    background-color: yellow;
+}
+.caja4 {
+    background-color: green;
+}
+.caja5 {
+    background-color: purple;
+}
+.caja6 {
+    background-color: pink;
+}
