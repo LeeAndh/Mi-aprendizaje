@@ -23,7 +23,10 @@ header nav {
 a {
     text-decoration: none;
     cursor: pointer;
-    
+    color: #000000;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 header nav ul {
@@ -95,6 +98,8 @@ main .main-input input {
     outline: none;
     width: 460px;
     height: 46px;
+    padding: 0 12px;
+    font-size: 1.7rem;
 }
 main .main-input-container:hover {
     box-shadow: 0 1px 6px 0 #20212447;
@@ -156,6 +161,9 @@ main .main-lang {
     margin-top: 28px;
     color: #4d5156;
 }
+main .main-lang a {
+    color: #1a0dab;
+}
 footer {
     width: 100%;
     position: absolute;
@@ -164,6 +172,7 @@ footer {
 }
 footer div {
     height: 47px;
+    white-space: nowrap;
 }
 footer .pais {
     border-bottom: 1px solid #dbdde0;
@@ -181,14 +190,12 @@ footer .footer-left, .footer-right {
     display: flex;
     list-style: none;
     font-size: 1.4rem;
-    
 }
 footer .footer-left {
     margin-left: 30px;
 }
 footer .footer-left a {
     margin-right: 30px;
-    text-decoration: none;
 }
 footer .footer-right {
     margin-right: 33px;
